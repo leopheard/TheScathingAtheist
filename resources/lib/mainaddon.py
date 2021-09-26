@@ -10,21 +10,21 @@ def get_soup1(url1):
 
 def get_playable_podcast1(soup1):
     subjects = []
-    for content in soup1.find_all('item', limit=14):
+    for content in soup1.find_all('item',limit=14):
         try:
             link = content.find('enclosure')
             link = link.get('url')
             print("\n\nLink: ", link)
             title = content.find('title')
             title = title.get_text()
-            thumbnail = content.find('itunes:image')
-            thumbnail = thumbnail.get('href')
+#            thumbnail = content.find('itunes:image')
+$            thumbnail = thumbnail.get('href')
         except AttributeError:
             continue
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': thumbnail,
+                'thumbnail': "https://images.theabcdn.com/i/24347933.jpg",
         }
         subjects.append(item)
     return subjects
@@ -38,7 +38,6 @@ def compile_playable_podcast1(playable_podcast1):
             'is_playable': True,
     })
     return items
-
 def get_playable_podcast(soup1):
     subjects = []
     for content in soup1.find_all('item'):
@@ -48,14 +47,14 @@ def get_playable_podcast(soup1):
             print("\n\nLink: ", link)
             title = content.find('title')
             title = title.get_text()
-            thumbnail = content.find('itunes:image')
-            thumbnail = thumbnail.get('href')
+#            thumbnail = content.find('itunes:image')
+#            thumbnail = thumbnail.get('href')
         except AttributeError:
             continue
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': thumbnail,
+                'thumbnail': "https://images.theabcdn.com/i/24347933.jpg",
         }
         subjects.append(item)
     return subjects
