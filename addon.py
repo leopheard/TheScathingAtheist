@@ -9,11 +9,11 @@ def main_menu():
         {
             'label': plugin.get_string(30001), 
             'path': plugin.url_for('episodes1'),
-            'thumbnail': "https://github.com/leopheard/Audio-Podcasts/blob/master/resources/media/1.jpg?raw=true"},
+            'thumbnail': "https://github.com/leopheard/TheScathingAtheist/blob/eaf30a25511fd135ac79ce974e0f8a407236bafd/resources/media/1.jpg"},
         {
             'label': plugin.get_string(30000),
             'path': plugin.url_for('episodes'),
-            'thumbnail': "https://github.com/leopheard/Audio-Podcasts/blob/master/resources/media/1.jpg?raw=true"},
+            'thumbnail': "https://github.com/leopheard/TheScathingAtheist/blob/eaf30a25511fd135ac79ce974e0f8a407236bafd/resources/media/1.jpg"},
     ]
     return items
 @plugin.route('/episodes1/')

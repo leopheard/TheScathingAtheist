@@ -24,7 +24,7 @@ def get_playable_podcast1(soup1):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "https://github.com/leopheard/Audio-Podcasts/blob/master/resources/media/1.jpg?raw=true",
+                'thumbnail': "https://github.com/leopheard/TheScathingAtheist/blob/eaf30a25511fd135ac79ce974e0f8a407236bafd/resources/media/1.jpg",
         }
         subjects.append(item)
     return subjects
@@ -54,7 +54,7 @@ def get_playable_podcast(soup1):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "https://github.com/leopheard/Audio-Podcasts/blob/master/resources/media/1.jpg?raw=true",
+                'thumbnail': "https://github.com/leopheard/TheScathingAtheist/blob/eaf30a25511fd135ac79ce974e0f8a407236bafd/resources/media/1.jpg",
         }
         subjects.append(item)
     return subjects
