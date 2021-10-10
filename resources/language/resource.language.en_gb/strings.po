@@ -15,11 +15,11 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgctxt "#30000"
-msgid "All episodes"
+msgid "The Scathing Atheist (all episodes)"
 msgstr ""
 
 msgctxt "#30001"
-msgid "Latest episodes"
+msgid "The Scathing Atheist (latest episodes)"
 msgstr ""
 
 msgctxt "#30002"

@@ -1,6 +1,6 @@
 <a href="https://kodi.tv">KODI<a> (XBMC/OSMC/Firestick) audio addon for the <a href="https://scathingatheist.com/">The Scathing Atheist</a>.<br>
 
-<img src="https://i1.sndcdn.com/avatars-000222558085-4ri5q8-original.jpg" width="250" height="250" alt="The Scathing Atheist"><br>
+<img src="https://github.com/leopheard/Audio-Podcasts/blob/master/resources/media/1.jpg?raw=true" width="250" height="250" alt="The Scathing Atheist"><br>
 
 A harsh look at religion that uses all the expletives that the subject deserves.<br>
 

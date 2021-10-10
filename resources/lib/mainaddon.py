@@ -10,7 +10,7 @@ def get_soup1(url1):
 
 def get_playable_podcast1(soup1):
     subjects = []
-    for content in soup1.find_all('item',limit=14):
+    for content in soup1.find_all('item',limit=18):
         try:
             link = content.find('enclosure')
             link = link.get('url')
@@ -18,13 +18,13 @@ def get_playable_podcast1(soup1):
             title = content.find('title')
             title = title.get_text()
 #            thumbnail = content.find('itunes:image')
-$            thumbnail = thumbnail.get('href')
+#            thumbnail = thumbnail.get('href')
         except AttributeError:
             continue
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "https://images.theabcdn.com/i/24347933.jpg",
+                'thumbnail': "https://github.com/leopheard/Audio-Podcasts/blob/master/resources/media/1.jpg?raw=true",
         }
         subjects.append(item)
     return subjects
@@ -54,7 +54,7 @@ def get_playable_podcast(soup1):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "https://images.theabcdn.com/i/24347933.jpg",
+                'thumbnail': "https://github.com/leopheard/Audio-Podcasts/blob/master/resources/media/1.jpg?raw=true",
         }
         subjects.append(item)
     return subjects

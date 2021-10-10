@@ -9,11 +9,11 @@ def main_menu():
         {
             'label': plugin.get_string(30001), 
             'path': plugin.url_for('episodes1'),
-            'thumbnail': "https://images.theabcdn.com/i/24347933.jpg"},
+            'thumbnail': "https://github.com/leopheard/Audio-Podcasts/blob/master/resources/media/1.jpg?raw=true"},
         {
             'label': plugin.get_string(30000),
             'path': plugin.url_for('episodes'),
-            'thumbnail': "https://images.theabcdn.com/i/24347933.jpg"},
+            'thumbnail': "https://github.com/leopheard/Audio-Podcasts/blob/master/resources/media/1.jpg?raw=true"},
     ]
     return items
 @plugin.route('/episodes1/')
